@@ -196,6 +196,11 @@ function awesome_weather_logic( $atts )
 	$weather 							= new stdclass;
 	
 	// DEFAULT SETTINGS
+	// SANITIZE id PARAMETER
+	if (isset($atts['id'])) {
+			// Use sanitize_html_class for HTML id/class, sanitize_title for JS/other contexts
+			$atts['id'] = sanitize_html_class($atts['id']);
+	}
 	$weather->id 						= isset($atts['id']) ? $atts['id'] : awe_widget_id_new( $atts );
 	$weather->error 					= false;
 	$weather->location					= isset($atts['location']) ? awesome_weather_prep_location( $atts['location'] ) : '';
@@ -1159,7 +1164,11 @@ function awe_extended_link( &$weather, $do_before = '', $do_after = '' )
 
 function awesome_weather_refresh()
 {
-	echo awesome_weather_logic( $_POST );
+	$sanitized_post = array_map('sanitize_text_field', $_POST);
+	if (isset($sanitized_post['id'])) {
+		$sanitized_post['id'] = sanitize_title($sanitized_post['id']);
+	}
+	echo awesome_weather_logic( $sanitized_post );
 	exit;
 }
 add_action( 'wp_ajax_awesome_weather_refresh', 'awesome_weather_refresh' );
