@@ -39,7 +39,7 @@ function awesome_weather_get_weather_data_openweathermaps( &$weather )
 		
 		if( $city_id_from_location )
 		{
-			$weather->owm_city_id = $$city_id_from_location;
+			$weather->owm_city_id = $city_id_from_location;
 		}
 		else
 		{

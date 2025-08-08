@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Finally beautiful weather widgets for your beautiful site.
+Finally beautiful weather widgets for your beautiful WordPress website.
 
 == Description ==
 
@@ -17,7 +17,7 @@ This plugin allows you to easily add super clean (and awesome) weather widgets t
 = Weather by OpenWeatherMap or Dark Sky =
 The weather data is available either by [OpenWeatherMap](https://openweathermap.org) or [Dark Sky](https://darksky.net). 
 
-They require a free to access the data. 
+They require a free key to access the data. 
 
 * [Open Weather Map API Key](http://openweathermap.org/appid#get)
 * [Dark Sky Secret Key](https://darksky.net/dev)
@@ -69,9 +69,14 @@ The easiest shortcode setting is just: `[awesome-weather location="Oklahoma City
 
 == Upgrade Notice ==
 
-I have merged my PRO plugin into this FREE plugin. Enjoy all the new features!
+At version 3.o, I merged my PRO plugin into this FREE plugin. Enjoy all the new features!
 
 == Changelog ==
+
+= 3.0.2 =
+- Fix: More locale changes.
+- Fix: Nasty possible loop cleaned.
+- Fix: awe_widget_id issue change array to object
 
 = 3.0.1 = 
 - Fix: Locale issues simplified.

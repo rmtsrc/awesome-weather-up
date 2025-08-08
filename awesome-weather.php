@@ -5,7 +5,7 @@ Plugin URI: https://halgatewood.com/awesome-weather
 Description: A weather widget that actually looks cool
 Author: Hal Gatewood
 Author URI: https://www.halgatewood.com
-Version: 3.0
+Version: 3.0.2
 Text Domain: awesome-weather
 Domain Path: /languages
 
@@ -44,10 +44,18 @@ include_once( dirname(__FILE__) . '/awesome-weather-mediabox.php');
 
 // SETUP
 function awesome_weather_setup()
+{	
+	if( is_admin() ) add_action(	'admin_menu', 'awesome_weather_setting_page_menu' );
+}
+add_action('plugins_loaded', 'awesome_weather_setup', 99999, 0);
+
+
+// LANGUAGES
+function awesome_weather_setup_locale()
 {
 	$locale = apply_filters('plugin_locale', get_locale(), 'awesome-weather');	
     $mofile = WP_LANG_DIR . '/awesome-weather/awesome-weather-' . $locale . '.mo';
- 
+
     if( file_exists( $mofile ) )
     {
         load_textdomain( 'awesome-weather', $mofile );
@@ -56,13 +64,8 @@ function awesome_weather_setup()
     {
         load_plugin_textdomain( 'awesome-weather', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
     }
-	
-	if( is_admin() )
-	{
-		add_action(	'admin_menu', 'awesome_weather_setting_page_menu' );
-	}
 }
-add_action('plugins_loaded', 'awesome_weather_setup', 99999, 0);
+add_action( 'init', 'awesome_weather_setup_locale' );
 
 
 
@@ -186,13 +189,16 @@ function awesome_weather_logic( $atts )
 {
 	global $awesome_weather_sizes;
 	
+	if( is_object($atts) ) $atts = (array) $atts;
+	
+	
 	$add_to_transient					= '';
 	$weather 							= new stdclass;
 	
 	// DEFAULT SETTINGS
-	$weather->id 						= isset($atts['id']) ? $atts['id'] : awe_widget_id( $atts, true );
+	$weather->id 						= isset($atts['id']) ? $atts['id'] : awe_widget_id_new( $atts );
 	$weather->error 					= false;
-	$weather->location					= isset($atts['location']) ? awesome_weather_prep_location($atts['location']) : '';
+	$weather->location					= isset($atts['location']) ? awesome_weather_prep_location( $atts['location'] ) : '';
 	$weather->owm_city_id				= isset($atts['owm_city_id']) ? $atts['owm_city_id'] : 0;
 	
 	$weather->user_location				= isset($atts['user_location']) ? $atts['user_location'] : '';
@@ -648,6 +654,13 @@ require_once(dirname(__FILE__) . '/widget.php');
 
 
 // CREATE WIDGET ID
+function awe_widget_id_new( $atts )
+{
+	$w = $atts;
+	return awe_widget_id( $w, true );
+}
+
+
 function awe_widget_id( &$weather, $rtn = false )
 {
 	// SANITIZE
@@ -1204,11 +1217,11 @@ function awesome_weather_get_locales()
 }
 
 
-function awesome_weather_prep_location($text) 
+function awesome_weather_prep_location( $text ) 
 { 
-	$text = stripslashes($text);
-    $text = str_replace(array("\xe2\x80\x98", "\xe2\x80\x99", "\xe2\x80\x9c", "\xe2\x80\x9d", "\xe2\x80\x93", "\xe2\x80\x94", "\xe2\x80\xa6"), array("'", "'", '', '', '-', '--', '...'), $text);
-    $text = str_replace(array(chr(145), chr(146), chr(147), chr(148), chr(150), chr(151), chr(133)), array("'", "'", '', '', '-', '--', '...'), $text);
+	$text = stripslashes( $text );
+    $text = str_replace( array("\xe2\x80\x98", "\xe2\x80\x99", "\xe2\x80\x9c", "\xe2\x80\x9d", "\xe2\x80\x93", "\xe2\x80\x94", "\xe2\x80\xa6"), array("'", "'", '', '', '-', '--', '...'), $text);
+    $text = str_replace( array(chr(145), chr(146), chr(147), chr(148), chr(150), chr(151), chr(133)), array("'", "'", '', '', '-', '--', '...'), $text);
     return $text;
 } 
 
