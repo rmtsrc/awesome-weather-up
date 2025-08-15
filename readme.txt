@@ -1,4 +1,4 @@
-=== Awesome Weather Widget ===
+=== Awesome Weather Widget Updated ===
 Contributors: halgatewood
 Donate link: https://halgatewood.com/donate/
 Tags: widgets, sidebar, shortcode, openweathermap, darksky, weather, weather widget, forecast, global, temp, local weather, local forecast
@@ -25,25 +25,25 @@ They require a free key to access the data.
 Once you have the API Key, you can save it in the WordPress admin under `'Settings' -> 'Awesome Weather'`
 
 = Help Guides =
-There are lots of juicy [Help Guides on my website](https://halgatewood.com/docs/plugins/awesome-weather-widget).
+There are lots of juicy [Help Guides on my website](https://halgatewood.com/docs/plugins/awesome-weather-up-widget).
 These will answer most of the questions you have. 
 Some popular ones include:
 
-*   [Adding a Widget](https://halgatewood.com/docs/plugins/awesome-weather-widget/adding-widget)
-*   [Shotcode Attributes](https://halgatewood.com/docs/plugins/awesome-weather-widget/using-shortcode)
-*   [Creating Custom Templates](https://halgatewood.com/docs/plugins/awesome-weather-widget/creating-custom-templates)
-*   [Getting the User's Location](https://halgatewood.com/docs/plugins/awesome-weather-widget/user-location-detection-settings)
-*   [Bonus Functions for Getting Weather Data](https://halgatewood.com/docs/plugins/awesome-weather-widget/pro-functions-grab-weather-data)
-*   [Available Filters](https://halgatewood.com/docs/plugins/awesome-weather-widget/available-filters)
-*   [Cache Settings](https://halgatewood.com/docs/plugins/awesome-weather-widget/clearing-weather-cache)
-*   [API Key Settings](https://halgatewood.com/docs/plugins/awesome-weather-widget/register-for-an-openweathermap-api-key-appid)
+*   [Adding a Widget](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/adding-widget)
+*   [Shotcode Attributes](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/using-shortcode)
+*   [Creating Custom Templates](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/creating-custom-templates)
+*   [Getting the User's Location](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/user-location-detection-settings)
+*   [Bonus Functions for Getting Weather Data](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/pro-functions-grab-weather-data)
+*   [Available Filters](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/available-filters)
+*   [Cache Settings](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/clearing-weather-cache)
+*   [API Key Settings](https://halgatewood.com/docs/plugins/awesome-weather-up-widget/register-for-an-openweathermap-api-key-appid)
 
 = About the Developer =
-The development of this plugin was done by [Hal Gatewood](https://halgatewood.com) mostly when I should be sleeping. I have a full time job that is not building WordPress plugins, so please keep this in mind when you submit your support tickets. I also **do not work for OpenWeatherMap or Dark Sky** and have no control over the quality of the weather data returned from them. Sorry.
+The development of this plugin was done by [Hal Gatewood Updated](https://halgatewood.com) mostly when I should be sleeping. I have a full time job that is not building WordPress plugins, so please keep this in mind when you submit your support tickets. I also **do not work for OpenWeatherMap or Dark Sky** and have no control over the quality of the weather data returned from them. Sorry.
 
 = Setup =
 Use the built in widget with all of its marvelous settings or add it to a page or theme with the shortcode:
-`[awesome-weather owm_city_id="4544349"]` or `[awesome-weather location="Oklahoma City"]`
+`[awesome-weather-up owm_city_id="4544349"]` or `[awesome-weather-up location="Oklahoma City"]`
 
 == Installation ==
 
@@ -53,7 +53,7 @@ Use the built in widget with all of its marvelous settings or add it to a page o
 1. Add your API Key to the settings field in 'Settings' -> 'Awesome Weather' (added in version 1.5.3)
 1. Use shortcode or widget to display awesome weather on your awesome site
 
-The easiest shortcode setting is just: `[awesome-weather location="Oklahoma City"]`
+The easiest shortcode setting is just: `[awesome-weather-up location="Oklahoma City"]`
 
 
 == Screenshots ==
@@ -72,6 +72,9 @@ The easiest shortcode setting is just: `[awesome-weather location="Oklahoma City
 At version 3.o, I merged my PRO plugin into this FREE plugin. Enjoy all the new features!
 
 == Changelog ==
+
+= 3.0.3 =
+- Fix: Sanitize inputs
 
 = 3.0.2 =
 - Fix: More locale changes.
@@ -108,7 +111,7 @@ At version 3.o, I merged my PRO plugin into this FREE plugin. Enjoy all the new 
 * New lat and lon attributes to get weather by coordinates
 
 = 1.5.9 =
-* Updated language to allow for custom translations located at: wp-content/languages/awesome-weather/awesome-weather-{locale}.mo 
+* Updated language to allow for custom translations located at: wp-content/languages/awesome-weather-up/awesome-weather-up-{locale}.mo 
 * Checkbox to hide the attribution in the widget settings or use shortcode attribute hide_attribution="1"
 
 = 1.5.8 =
@@ -119,7 +122,7 @@ At version 3.o, I merged my PRO plugin into this FREE plugin. Enjoy all the new 
 = 1.5.7 =
 * Wording changes to help improve user experience, thus new updated .pot file
 * Bug fix for AWESOME_WEATHER_APPID constant, wasn't always being used.
-* Changed awesome-weather-widget.js to awesome-weather-widget-admin.js
+* Changed awesome-weather-up-widget.js to awesome-weather-up-widget-admin.js
 * Moved Widget functions into widget.php file
 * Fixed locations searches that contain commas
 * Check for variables exist before trying to display them (minimizes PHP Notices)

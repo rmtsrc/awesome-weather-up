@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Awesome Weather Widget - PRO!\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/awesome-weather-pro\n"
+"Project-Id-Version: Awesome Weather Widget Updated - PRO!\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awesome-weather-up-pro\n"
 "POT-Creation-Date: 2019-11-18 06:57+0000\n"
 "PO-Revision-Date: 2019-11-18 06:58+0000\n"
-"Last-Translator: Hal Gatewood <hal@halgatewood.com>\n"
+"Last-Translator: Hal Gatewood Updated <hal@halgatewood.com>\n"
 "Language-Team: French (France)\n"
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.3.0; wp-5.3"
 
-#: widget.php:254 awesome-weather-mediabox.php:157
+#: widget.php:254 awesome-weather-up-mediabox.php:157
 #, php-format
 msgid "%s Day"
 msgid_plural "%s Days"
@@ -34,15 +34,15 @@ msgstr[1] "%s jours"
 msgid "A weather widget that actually looks cool"
 msgstr ""
 
-#: awesome-weather-mediabox.php:14
-msgid "Add Awesome Weather Widget Shortcode"
-msgstr "Ajouter un shortcode pour Awesome Weather Widget"
+#: awesome-weather-up-mediabox.php:14
+msgid "Add Awesome Weather Widget Updated Shortcode"
+msgstr "Ajouter un shortcode pour Awesome Weather Widget Updated"
 
 #: widget.php:165 widget.php:180
 msgid "add it to the settings page."
 msgstr "ajoutez-le à la page des paramètres."
 
-#: awesome-weather-mediabox.php:14
+#: awesome-weather-up-mediabox.php:14
 msgid "Add Weather"
 msgstr "Ajouter Météo"
 
@@ -50,7 +50,7 @@ msgstr "Ajouter Météo"
 msgid "Advanced Options"
 msgstr "Options avancées"
 
-#: widget.php:307 awesome-weather-mediabox.php:201
+#: widget.php:307 awesome-weather-up-mediabox.php:201
 msgid "Allow User to Change the Location"
 msgstr "Permettre à l'utilisateur de changer leur emplacement"
 
@@ -58,79 +58,79 @@ msgstr "Permettre à l'utilisateur de changer leur emplacement"
 msgid "and"
 msgstr "et"
 
-#: awesome-weather-settings.php:18
-msgid "Awesome Weather Widget"
-msgstr "Awesome Weather Widget"
+#: awesome-weather-up-settings.php:18
+msgid "Awesome Weather Widget Updated"
+msgstr "Awesome Weather Widget Updated"
 
-#: widget.php:261 awesome-weather-mediabox.php:176
+#: widget.php:261 awesome-weather-up-mediabox.php:176
 msgid "Background Image:"
 msgstr "Image de fond :"
 
-#: widget.php:239 awesome-weather-mediabox.php:164
+#: widget.php:239 awesome-weather-up-mediabox.php:164
 msgid "Banner Title:"
 msgstr "Titre de la bannière :"
 
-#: awesome-weather.php:33
+#: awesome-weather-up.php:33
 msgid "Basic"
 msgstr "De base"
 
-#: awesome-weather-codes.php:24
+#: awesome-weather-up-codes.php:24
 msgid "blowing snow"
 msgstr "poudrerie"
 
-#: awesome-weather.php:31
+#: awesome-weather-up.php:31
 msgid "Boxed"
 msgstr "Boxed"
 
-#: awesome-weather-codes.php:47
+#: awesome-weather-up-codes.php:47
 msgid "breezy"
 msgstr "frais"
 
-#: awesome-weather-codes.php:46
+#: awesome-weather-up-codes.php:46
 msgid "calm"
 msgstr "calme"
 
-#: awesome-weather-mediabox.php:236
+#: awesome-weather-up-mediabox.php:236
 msgid "Cancel"
 msgstr "Annuler"
 
-#: awesome-weather.php:293
+#: awesome-weather-up.php:293
 msgid "City not found, please try again."
 msgstr "Ville introuvable, s'il vous plaît essayer à nouveau."
 
-#: awesome-weather-codes.php:41
+#: awesome-weather-up-codes.php:41
 msgid "clear"
 msgstr "clair"
 
-#: awesome-weather-settings.php:33
-msgid "Clear all Awesome Weather Widget Cache"
-msgstr "Effacer tout Awesome Weather Widget Cache"
+#: awesome-weather-up-settings.php:33
+msgid "Clear all Awesome Weather Widget Updated Cache"
+msgstr "Effacer tout Awesome Weather Widget Updated Cache"
 
-#: awesome-weather-codes.php:37
+#: awesome-weather-up-codes.php:37
 msgid "cloudy"
 msgstr "nuageux"
 
-#: awesome-weather-codes.php:35
+#: awesome-weather-up-codes.php:35
 msgid "cold"
 msgstr "du froid"
 
-#: awesome-weather.php:34
+#: awesome-weather-up.php:34
 msgid "Custom"
 msgstr "Coutume"
 
-#: widget.php:271 awesome-weather-mediabox.php:184
+#: widget.php:271 awesome-weather-up-mediabox.php:184
 msgid "Custom Background Color:"
 msgstr "Couleur de fond personnalisée :"
 
-#: widget.php:377 awesome-weather-mediabox.php:230
+#: widget.php:377 awesome-weather-up-mediabox.php:230
 msgid "Custom Extended Forecast Text:"
 msgstr "Étendue personnalisée texte prévisions:"
 
-#: widget.php:372 awesome-weather-mediabox.php:225
+#: widget.php:372 awesome-weather-up-mediabox.php:225
 msgid "Custom Extended Forecast URL:"
 msgstr "Étendue personnalisée URL prévisions :"
 
-#: awesome-weather.php:591 awesome-weather.php:1214
+#: awesome-weather-up.php:591 awesome-weather-up.php:1214
 msgid ""
 "Custom template file not found. Please add a file to your theme folder with "
 "this name:"
@@ -138,7 +138,7 @@ msgstr ""
 "Fichier modèle personnalisé introuvable. S'il vous plaît ajouter un fichier "
 "à votre dossier de thème avec ce nom:"
 
-#: widget.php:196 awesome-weather-mediabox.php:128
+#: widget.php:196 awesome-weather-up-mediabox.php:128
 msgid "Custom Template Filename:"
 msgstr "Modèle personnalisé nom du fichier:"
 
@@ -148,45 +148,45 @@ msgstr ""
 "Dark Sky nécessite une clé secrète pour accéder à leurs données "
 "météorologiques."
 
-#: awesome-weather-settings.php:68
+#: awesome-weather-up-settings.php:68
 msgid "Dark Sky Secret Key"
 msgstr "Clé secrète de Dark Sky"
 
-#: awesome-weather-mediabox.php:155
+#: awesome-weather-up-mediabox.php:155
 msgid "Default"
 msgstr "Défaut"
 
-#: awesome-weather-settings.php:65
+#: awesome-weather-up-settings.php:65
 msgid "Default Weather Provider"
 msgstr ""
 
-#: awesome-weather-settings.php:113 awesome-weather-settings.php:135
-#: awesome-weather-settings.php:155 awesome-weather-settings.php:173
-#: awesome-weather-settings.php:189
+#: awesome-weather-up-settings.php:113 awesome-weather-up-settings.php:135
+#: awesome-weather-up-settings.php:155 awesome-weather-up-settings.php:173
+#: awesome-weather-up-settings.php:189
 msgid "Defined in wp-config"
 msgstr "Défini dans wp-config"
 
-#: awesome-weather-settings.php:209
+#: awesome-weather-up-settings.php:209
 msgid "Display for Anyone"
 msgstr "Affichage pour tout le monde"
 
-#: awesome-weather-settings.php:208
+#: awesome-weather-up-settings.php:208
 msgid "Display if Admin"
 msgstr "Affichage si l'administrateur"
 
-#: widget.php:256 awesome-weather-mediabox.php:159
+#: widget.php:256 awesome-weather-up-mediabox.php:159
 msgid "Don't Show"
 msgstr "Ne plus afficher"
 
-#: awesome-weather-settings.php:46
+#: awesome-weather-up-settings.php:46
 msgid "Donate"
 msgstr ""
 
-#: awesome-weather-codes.php:18
+#: awesome-weather-up-codes.php:18
 msgid "drizzle"
 msgstr "bruine"
 
-#: awesome-weather-codes.php:31 providers/openweathermaps.php:430
+#: awesome-weather-up-codes.php:31 providers/openweathermaps.php:430
 msgid "dust"
 msgstr "poussière"
 
@@ -200,7 +200,7 @@ msgstr "O"
 msgid "ENE"
 msgstr "ONO"
 
-#: awesome-weather-settings.php:71
+#: awesome-weather-up-settings.php:71
 msgid "Error Handling"
 msgstr "La gestion des erreurs"
 
@@ -209,31 +209,31 @@ msgstr "La gestion des erreurs"
 msgid "ESE"
 msgstr "OSO"
 
-#: awesome-weather.php:1140
+#: awesome-weather-up.php:1140
 msgid "extended forecast"
 msgstr "Prévisions à long terme"
 
-#: awesome-weather-codes.php:43
+#: awesome-weather-up-codes.php:43
 msgid "fair"
 msgstr "beau"
 
-#: awesome-weather-codes.php:32
+#: awesome-weather-up-codes.php:32
 msgid "foggy"
 msgstr "brumeux"
 
-#: widget.php:251 awesome-weather-mediabox.php:153
+#: widget.php:251 awesome-weather-up-mediabox.php:153
 msgid "Forecast:"
 msgstr "Prévision :"
 
-#: widget.php:196 awesome-weather-mediabox.php:128
+#: widget.php:196 awesome-weather-up-mediabox.php:128
 msgid "found in theme folder"
 msgstr "trouvé dans le dossier de thème"
 
-#: awesome-weather-codes.php:17
+#: awesome-weather-up-codes.php:17
 msgid "freezing drizzle"
 msgstr "bruine verglaçante"
 
-#: awesome-weather-codes.php:19
+#: awesome-weather-up-codes.php:19
 msgid "freezing rain"
 msgstr "pluie verglaçante"
 
@@ -242,15 +242,15 @@ msgstr "pluie verglaçante"
 msgid "Fri"
 msgstr "Ven"
 
-#: awesome-weather-settings.php:162
+#: awesome-weather-up-settings.php:162
 msgid "Get a Secret Key"
 msgstr "Obtenir une clé secrète"
 
-#: awesome-weather-settings.php:180 awesome-weather-settings.php:197
+#: awesome-weather-up-settings.php:180 awesome-weather-up-settings.php:197
 msgid "Get a Token"
 msgstr "Obtenir un token"
 
-#: awesome-weather-settings.php:142
+#: awesome-weather-up-settings.php:142
 msgid "Get an APPID"
 msgstr "Obtenir un APPID"
 
@@ -262,63 +262,63 @@ msgstr "Obtenez votre APPID"
 msgid "Get your Key"
 msgstr "Obtenez votre clé"
 
-#: awesome-weather.php:286
+#: awesome-weather-up.php:286
 msgid "H"
 msgstr "MAX"
 
-#: awesome-weather-codes.php:29
+#: awesome-weather-up-codes.php:29
 msgid "hail"
 msgstr "saluer"
 
 #. Author of the plugin
-msgid "Hal Gatewood"
-msgstr "Hal Gatewood"
+msgid "Hal Gatewood Updated"
+msgstr "Hal Gatewood Updated"
 
-#: awesome-weather-codes.php:33
+#: awesome-weather-up-codes.php:33
 msgid "haze"
 msgstr "brume"
 
-#: awesome-weather-codes.php:27
+#: awesome-weather-up-codes.php:27
 msgid "heavy snow"
 msgstr "beaucoup de neige"
 
-#: awesome-weather-settings.php:207
+#: awesome-weather-up-settings.php:207
 msgid "Hidden in Source"
 msgstr "Caché dans source"
 
-#: widget.php:356 awesome-weather-mediabox.php:211
+#: widget.php:356 awesome-weather-up-mediabox.php:211
 msgid "Hide Stats"
 msgstr "Cacher les stats"
 
-#: widget.php:361 awesome-weather-mediabox.php:216
+#: widget.php:361 awesome-weather-up-mediabox.php:216
 msgid "Hide Weather Attribution"
 msgstr "Cacher l'attribution"
 
-#: awesome-weather-codes.php:36
+#: awesome-weather-up-codes.php:36
 msgid "hot"
 msgstr "chaud"
 
 #. URI of the plugin
-msgid "https://halgatewood.com/awesome-weather"
+msgid "https://halgatewood.com/awesome-weather-up"
 msgstr ""
 
 #. Author URI of the plugin
 msgid "https://www.halgatewood.com"
 msgstr "https://www.halgatewood.com"
 
-#: awesome-weather.php:285
+#: awesome-weather-up.php:285
 msgid "humidity"
 msgstr "humidité"
 
-#: awesome-weather-codes.php:9
+#: awesome-weather-up-codes.php:9
 msgid "hurricane"
 msgstr "ouragan"
 
-#: awesome-weather-mediabox.php:140 awesome-weather-mediabox.php:235
+#: awesome-weather-up-mediabox.php:140 awesome-weather-up-mediabox.php:235
 msgid "Insert Weather Widget"
 msgstr "Insérer Weather Widget"
 
-#: awesome-weather-settings.php:196
+#: awesome-weather-up-settings.php:196
 msgid ""
 "ipinfo.io attempts to convert IP addresses to latitude and longitude. "
 "Without a token you can do 1,000 requests a day. If you need more, you will "
@@ -328,11 +328,11 @@ msgstr ""
 "jeton, vous pouvez effectuer 1 000 demandes par jour. Si vous avez besoin de "
 "plus, vous aurez besoin d'un jeton."
 
-#: awesome-weather-settings.php:70
+#: awesome-weather-up-settings.php:70
 msgid "ipinfo.io Token"
 msgstr "Token pour ipinfo.io"
 
-#: awesome-weather-codes.php:44
+#: awesome-weather-up-codes.php:44
 msgid "isolated thunderstorms"
 msgstr "orages"
 
@@ -340,7 +340,7 @@ msgstr "orages"
 msgid "km/h"
 msgstr "km/h"
 
-#: awesome-weather.php:287
+#: awesome-weather-up.php:287
 msgid "L"
 msgstr "MIN"
 
@@ -348,11 +348,11 @@ msgstr "MIN"
 msgid "Latitude,Longitude:"
 msgstr "Latitude,Longitude:"
 
-#: awesome-weather-codes.php:23
+#: awesome-weather-up-codes.php:23
 msgid "light snow showers"
 msgstr "légères averses de neige"
 
-#: widget.php:368 awesome-weather-mediabox.php:221
+#: widget.php:368 awesome-weather-up-mediabox.php:221
 msgid "Link to Extended Forecast"
 msgstr "Lien vers Prévisions à long terme"
 
@@ -360,19 +360,19 @@ msgstr "Lien vers Prévisions à long terme"
 msgid "Locale:"
 msgstr "Locale:"
 
-#: awesome-weather.php:789
+#: awesome-weather-up.php:789
 msgid "Location could not be geocoded."
 msgstr "L'emplacement n'a pas pu être géocodé."
 
-#: awesome-weather-mediabox.php:114
+#: awesome-weather-up-mediabox.php:114
 msgid "Location:"
 msgstr "Emplacement:"
 
-#: awesome-weather-settings.php:69
+#: awesome-weather-up-settings.php:69
 msgid "LocationIQ Token"
 msgstr "LocationIQ Token"
 
-#: awesome-weather.php:30
+#: awesome-weather-up.php:30
 msgid "Long"
 msgstr "Long"
 
@@ -381,11 +381,11 @@ msgstr "Long"
 msgid "m/s"
 msgstr "m/s"
 
-#: awesome-weather.php:32
+#: awesome-weather-up.php:32
 msgid "Material"
 msgstr "Material"
 
-#: awesome-weather.php:28
+#: awesome-weather-up.php:28
 msgid "Micro"
 msgstr "Micro"
 
@@ -393,19 +393,19 @@ msgstr "Micro"
 msgid "mist"
 msgstr "brouillard"
 
-#: awesome-weather-codes.php:16
+#: awesome-weather-up-codes.php:16
 msgid "mixed rain and hail"
 msgstr "mixte pluie et la grêle"
 
-#: awesome-weather-codes.php:14
+#: awesome-weather-up-codes.php:14
 msgid "mixed rain and sleet"
 msgstr "mixte pluie et le grésil"
 
-#: awesome-weather-codes.php:13
+#: awesome-weather-up-codes.php:13
 msgid "mixed rain and snow"
 msgstr "mixte pluie et la neige"
 
-#: awesome-weather-codes.php:15
+#: awesome-weather-up-codes.php:15
 msgid "mixed snow and sleet"
 msgstr "la neige et le grésil mixte"
 
@@ -414,7 +414,7 @@ msgstr "la neige et le grésil mixte"
 msgid "Mon"
 msgstr "Lun"
 
-#: awesome-weather-codes.php:39
+#: awesome-weather-up-codes.php:39
 msgid "mostly cloudy"
 msgstr "assez nuageux"
 
@@ -442,11 +442,11 @@ msgstr "NNO"
 msgid "NNW"
 msgstr "NNO"
 
-#: awesome-weather.php:654
+#: awesome-weather-up.php:654
 msgid "No city found in OpenWeatherMap."
 msgstr "Aucune ville trouvé dans OpenWeatherMap."
 
-#: awesome-weather.php:775
+#: awesome-weather-up.php:775
 msgid ""
 "No method of lookup available. Please enter an OpenWeatherMap APPID or "
 "LocationIQ Token in the Settings."
@@ -454,11 +454,11 @@ msgstr ""
 "Aucune méthode de recherche disponible. Veuillez entrer un jeton "
 "OpenWeatherMap APPID ou LocationIQ dans les paramètres."
 
-#: awesome-weather.php:620
+#: awesome-weather-up.php:620
 msgid "No weather information available"
 msgstr "Pas d'information météo disponible"
 
-#: awesome-weather.php:288
+#: awesome-weather-up.php:288
 msgid "Now"
 msgstr "Maintenant"
 
@@ -467,11 +467,11 @@ msgstr "Maintenant"
 msgid "NW"
 msgstr "NO"
 
-#: awesome-weather.php:655
+#: awesome-weather-up.php:655
 msgid "Only one location found. The ID has been set automatically above."
 msgstr "Un seul emplacement trouvé. L'ID a été mis automatiquement au-dessus."
 
-#: widget.php:223 awesome-weather-mediabox.php:148
+#: widget.php:223 awesome-weather-up-mediabox.php:148
 msgid "OpenWeatherMap City ID:"
 msgstr "OpenWeatherMap Ville ID:"
 
@@ -481,11 +481,11 @@ msgstr ""
 "OpenWeatherMap nécessite une clé APP ID pour accéder à leurs données "
 "météorologiques."
 
-#: awesome-weather-settings.php:67
+#: awesome-weather-up-settings.php:67
 msgid "OpenWeatherMaps APPID"
 msgstr "OpenWeatherMaps APPID"
 
-#: awesome-weather-mediabox.php:145
+#: awesome-weather-up-mediabox.php:145
 msgid "Optional"
 msgstr "Optionnel"
 
@@ -493,19 +493,19 @@ msgstr "Optionnel"
 msgid "overrides color changing"
 msgstr "remplacer le changement de couleur"
 
-#: awesome-weather-codes.php:40
+#: awesome-weather-up-codes.php:40
 msgid "partly cloudy"
 msgstr "partiellement nuageux"
 
-#: awesome-weather.php:656
+#: awesome-weather-up.php:656
 msgid "Please confirm your city:"
 msgstr "S'il vous plaît confirmer votre ville :"
 
-#: awesome-weather.php:1117
+#: awesome-weather-up.php:1117
 msgid "Powered by Dark Sky"
 msgstr "Propulsé par Dark Sky"
 
-#: awesome-weather-mediabox.php:115
+#: awesome-weather-up-mediabox.php:115
 msgid "Required"
 msgstr "Obligatoire"
 
@@ -523,15 +523,15 @@ msgstr "sablonneux"
 msgid "Sat"
 msgstr "Sam"
 
-#: awesome-weather-codes.php:21
+#: awesome-weather-up-codes.php:21
 msgid "scattered showers"
 msgstr "averses éparses"
 
-#: awesome-weather-codes.php:26
+#: awesome-weather-up-codes.php:26
 msgid "scattered snow showers"
 msgstr "averses de neige dispersées"
 
-#: awesome-weather-codes.php:45
+#: awesome-weather-up-codes.php:45
 msgid "scattered thunderstorms"
 msgstr "orages dispersés"
 
@@ -544,31 +544,31 @@ msgstr "SO"
 msgid "Search for Your Location:"
 msgstr "Rechercher votre lieu :"
 
-#: awesome-weather.php:292
+#: awesome-weather-up.php:292
 msgid "Search: City, State or Country"
 msgstr "Recherche: Ville, État ou Pays"
 
-#: awesome-weather.php:291
+#: awesome-weather-up.php:291
 msgid "Set Your Location"
 msgstr "Définir votre position"
 
-#: awesome-weather-settings.php:43
+#: awesome-weather-up-settings.php:43
 msgid "Settings"
 msgstr "Paramètres"
 
-#: awesome-weather-codes.php:10
+#: awesome-weather-up-codes.php:10
 msgid "severe thunderstorms"
 msgstr "orages violents"
 
-#: widget.php:351 awesome-weather-mediabox.php:206
+#: widget.php:351 awesome-weather-up-mediabox.php:206
 msgid "Show Weather Icons"
 msgstr "Voir les icônes météo"
 
-#: awesome-weather.php:29
+#: awesome-weather-up.php:29
 msgid "Showcase"
 msgstr "Showcase"
 
-#: awesome-weather-codes.php:20
+#: awesome-weather-up-codes.php:20
 msgid "showers"
 msgstr "douches"
 
@@ -576,23 +576,23 @@ msgstr "douches"
 msgid "Skip HTML5 Geolocation"
 msgstr "Passer la géolocalisation HTML5"
 
-#: awesome-weather-codes.php:30
+#: awesome-weather-up-codes.php:30
 msgid "sleet"
 msgstr "neige fondue"
 
-#: awesome-weather-codes.php:38
+#: awesome-weather-up-codes.php:38
 msgid "smoky"
 msgstr "enfumé"
 
-#: awesome-weather-codes.php:25
+#: awesome-weather-up-codes.php:25
 msgid "snow"
 msgstr "neige"
 
-#: awesome-weather-codes.php:22
+#: awesome-weather-up-codes.php:22
 msgid "snow flurries"
 msgstr "averses de neige"
 
-#: awesome-weather-codes.php:28
+#: awesome-weather-up-codes.php:28
 msgid "snow showers"
 msgstr "douches de neige"
 
@@ -619,7 +619,7 @@ msgstr "tempête"
 msgid "Sun"
 msgstr "Dim"
 
-#: awesome-weather-codes.php:42
+#: awesome-weather-up-codes.php:42
 msgid "sunny"
 msgstr "ensoleillé"
 
@@ -628,15 +628,15 @@ msgstr "ensoleillé"
 msgid "SW"
 msgstr "SO"
 
-#: awesome-weather.php:26
+#: awesome-weather-up.php:26
 msgid "Tall"
 msgstr "Haut"
 
-#: widget.php:187 awesome-weather-mediabox.php:119
+#: widget.php:187 awesome-weather-up-mediabox.php:119
 msgid "Template:"
 msgstr "Modèle :"
 
-#: widget.php:277 awesome-weather-mediabox.php:190
+#: widget.php:277 awesome-weather-up-mediabox.php:190
 msgid "Text Color"
 msgstr "Couleur du texte"
 
@@ -645,19 +645,19 @@ msgstr "Couleur du texte"
 msgid "Thu"
 msgstr "Jeu"
 
-#: awesome-weather-codes.php:12
+#: awesome-weather-up-codes.php:12
 msgid "thundershowers"
 msgstr "averses orageuses"
 
-#: awesome-weather-codes.php:11
+#: awesome-weather-up-codes.php:11
 msgid "thunderstorms"
 msgstr "des orages"
 
-#: awesome-weather-codes.php:7
+#: awesome-weather-up-codes.php:7
 msgid "tornado"
 msgstr "tornade"
 
-#: awesome-weather-codes.php:8
+#: awesome-weather-up-codes.php:8
 msgid "tropical storm"
 msgstr "tempête tropicale"
 
@@ -666,11 +666,11 @@ msgstr "tempête tropicale"
 msgid "Tue"
 msgstr "Mar"
 
-#: widget.php:295 awesome-weather-mediabox.php:133
+#: widget.php:295 awesome-weather-up-mediabox.php:133
 msgid "Units:"
 msgstr "Unités :"
 
-#: widget.php:267 awesome-weather-mediabox.php:181
+#: widget.php:267 awesome-weather-up-mediabox.php:181
 msgid "Use Different Background Images Based on Weather"
 msgstr "Utilisez fond différent images de fond sur Météo"
 
@@ -682,7 +682,7 @@ msgstr "utilisez le champ ci-dessus pour trouver l'identifiant de votre ville"
 msgid "use the location field above to geolocate."
 msgstr "utilisez le champ de localisation ci-dessus pour géolocaliser."
 
-#: widget.php:303 awesome-weather-mediabox.php:196
+#: widget.php:303 awesome-weather-up-mediabox.php:196
 msgid "Use User Location"
 msgstr "Utiliser l'emplacement de l'utilisateur"
 
@@ -699,7 +699,7 @@ msgstr "cendre volcanique"
 msgid "W"
 msgstr "O"
 
-#: awesome-weather.php:290
+#: awesome-weather-up.php:290
 msgid "Weather from"
 msgstr "Temps à partir de"
 
@@ -715,11 +715,11 @@ msgstr "Météo non trouvée"
 msgid "Weather Location Not Set"
 msgstr "Localisation de la météo pas définie"
 
-#: awesome-weather.php:604 awesome-weather.php:1194
+#: awesome-weather-up.php:604 awesome-weather-up.php:1194
 msgid "Weather template not found:"
 msgstr "Modèle de Météo introuvable:"
 
-#: awesome-weather-settings.php:22
+#: awesome-weather-up-settings.php:22
 msgid "Weather Widget Cache Cleared"
 msgstr "Cache effacé"
 
@@ -728,11 +728,11 @@ msgstr "Cache effacé"
 msgid "Wed"
 msgstr "Mer"
 
-#: awesome-weather-settings.php:212
+#: awesome-weather-up-settings.php:212
 msgid "What should the plugin do when there is an error?"
 msgstr "Qu'est-ce que le plugin devrait faire quand il ya une erreur?"
 
-#: awesome-weather-settings.php:123
+#: awesome-weather-up-settings.php:123
 msgid ""
 "Where do you want your weather data to be provided from. If you change this, "
 "it's a good idea to clear the cache below."
@@ -740,7 +740,7 @@ msgstr ""
 "Où voulez-vous vos données météo devant être fournis à partir. Si vous "
 "changez cela, il est une bonne idée d'effacer le cache-dessous."
 
-#: awesome-weather.php:27
+#: awesome-weather-up.php:27
 msgid "Wide"
 msgstr "Wide"
 
@@ -748,7 +748,7 @@ msgstr "Wide"
 msgid "Widget ID:"
 msgstr "ID du widget:"
 
-#: awesome-weather-mediabox.php:169
+#: awesome-weather-up-mediabox.php:169
 msgid "Widget Title:"
 msgstr "Titre Widget:"
 
@@ -756,11 +756,11 @@ msgstr "Titre Widget:"
 msgid "Widget Title: (optional)"
 msgstr "Titre Widget : (facultatif)"
 
-#: awesome-weather.php:289
+#: awesome-weather-up.php:289
 msgid "wind:"
 msgstr "vent :"
 
-#: awesome-weather-codes.php:34
+#: awesome-weather-up-codes.php:34
 msgid "windy"
 msgstr "venteux"
 

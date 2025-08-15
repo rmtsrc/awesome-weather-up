@@ -5,8 +5,8 @@ if( typeof awe == 'undefined') { var awe = []; }
 function awesome_weather_show_form( awe_widget_id ) 
 {
 	awe_stop_loading( awe_widget_id );
-	jQuery('#' + awe_widget_id + ' .awesome-weather-form').slideDown();
-	jQuery('#' + awe_widget_id + ' .awesome-weather-form input').focus();
+	jQuery('#' + awe_widget_id + ' .awesome-weather-up-form').slideDown();
+	jQuery('#' + awe_widget_id + ' .awesome-weather-up-form input').focus();
 }
 	
 function awe_stop_loading( awe_widget_id )
@@ -33,7 +33,7 @@ jQuery(document).ready(function()
 {
 	
 	// CHANGE LOCATION FORM
-	jQuery(document).on('submit', '.awesome-weather-form', function( e )
+	jQuery(document).on('submit', '.awesome-weather-up-form', function( e )
 	{
 		e.preventDefault();
 		
@@ -49,7 +49,7 @@ jQuery(document).ready(function()
 			var current_widget 	= jQuery('#' + awe_widget_id);
 		}
 
-		var user_location 	= jQuery(this_form).find('.awesome-weather-form-user-location').val();
+		var user_location 	= jQuery(this_form).find('.awesome-weather-up-form-user-location').val();
 		if( user_location )
 		{
 			// SHOW LOADING
@@ -63,23 +63,23 @@ jQuery(document).ready(function()
 			// PASS WEATHER OBJECT BACK THROUGH THE SYSTEM
 			jQuery.post(widget_obj.ajaxurl, widget_obj, function( response ) 
 			{
-				if( response == "false" || response == false || response == "" || (response.indexOf('awesome-weather-error') >= 0) )
+				if( response == "false" || response == false || response == "" || (response.indexOf('awesome-weather-up-error') >= 0) )
 				{
-					if( response.indexOf('awesome-weather-error') >= 0 )
+					if( response.indexOf('awesome-weather-up-error') >= 0 )
 					{
-						current_widget.find('.awesome-weather-city-error').replaceWith( response.replace('awesome-weather-error','awesome-weather-city-error') );
-						current_widget.find('.awesome-weather-city-error').fadeIn();
+						current_widget.find('.awesome-weather-up-city-error').replaceWith( response.replace('awesome-weather-up-error','awesome-weather-up-city-error') );
+						current_widget.find('.awesome-weather-up-city-error').fadeIn();
 					}
 					else
 					{
-						current_widget.find('.awesome-weather-error').fadeIn();
+						current_widget.find('.awesome-weather-up-error').fadeIn();
 					}	
 				}
 				else
 				{
 					// SPIT BACK THE RESULTS IN THE CONTAINER
 					current_widget.replaceWith( response );
-					current_widget.find('.awesome-weather-error').hide();
+					current_widget.find('.awesome-weather-up-error').hide();
 				}
 				
 				// STOP LOADING
@@ -111,10 +111,10 @@ jQuery(document).ready(function()
 		// HIDE WEATHER BUBBLE
 		current_widget.find('.awe-weather-bubble').hide();
 		
-		if( jQuery('#' + awe_widget_id + ' .awesome-weather-form').is(":visible") )
+		if( jQuery('#' + awe_widget_id + ' .awesome-weather-up-form').is(":visible") )
 		{
-			jQuery('#' + awe_widget_id + ' .awesome-weather-form').slideUp(400, function() {
-				jQuery('#' + awe_widget_id + ' .awesome-weather-form .awesome-weather-error').hide();
+			jQuery('#' + awe_widget_id + ' .awesome-weather-up-form').slideUp(400, function() {
+				jQuery('#' + awe_widget_id + ' .awesome-weather-up-form .awesome-weather-up-error').hide();
 			});
 			return false;
 		}

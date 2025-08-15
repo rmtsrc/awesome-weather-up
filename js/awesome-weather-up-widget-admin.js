@@ -3,7 +3,7 @@
 // CUSTOM WIDGET SIZE TOGGLE
 jQuery(document).ready(function()
 {
-	jQuery(document.body).on('change', '.awesome-weather-size-select', function()
+	jQuery(document.body).on('change', '.awesome-weather-up-size-select', function()
 	{
 		var widget_id = jQuery(this).data('widgetid');
 	
